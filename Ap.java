@@ -10,7 +10,7 @@ Scanner sc=new Scanner(System.in);
 a=sc.nextInt();
 d=sc.nextInt();
 n=sc.nextInt();
-r=((n / 2) * (2 * a + (n - 1) * d));
+r=((n ) * (2 * a + (n - 1) * d))/2;
 System.out.println(r);
 	}
 }
